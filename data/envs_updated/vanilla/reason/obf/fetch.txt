@@ -1,0 +1,5 @@
+Question 2 : 
+Why do you think the robot's plan is obfuscatory? Give your response only as '1', '2' or '3' based on the following optons and do not include any other text in your response:
+1) because the robot can possibly go to either location loc2 or location loc3.
+2) because the robot will only go to location loc2.
+3) because all plans are obfuscatory.

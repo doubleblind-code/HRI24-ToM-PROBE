@@ -1,0 +1,5 @@
+Question 2 : 
+Why do you think Setup A is not predictable? Choose one of the following reasons for your answer. Give your response only as '1', '2' or '3' based on the following optons and do not include any other text in your response:
+1) Because there are multiple plans that can be executed in Setup A, unlike setup B.
+2) Because there is a single plan that can be extracted in Setup A, unlike Setup B.
+3) Because such an environment does not exist.

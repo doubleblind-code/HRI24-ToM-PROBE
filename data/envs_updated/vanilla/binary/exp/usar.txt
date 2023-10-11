@@ -1,0 +1,17 @@
+Description : In a typical Urban Search and Rescue (USAR) setting, there is a building with interconnected rooms and hallways. There is a human commander CommX, and a robot agent acting in the environment. Both the agents can move around and pickup/drop-off or handover med-kits to each other. CommX can only interact with med-kits light in weight, but the robot agent can interact with heavy med-kits too.
+
+Initial State :  There are two med-kits: 
+
+a) medkit1 - heavier & lies closer to the room where CommX is, and 
+
+b) medkit2 - lighter & lies across the hallway close to the room where a patient is located.
+
+The observer (you) has the top-view of this setting, and do not know about the properties of the med-kits.
+
+Goal : Agent has to pickup a med-kit and hand it over to CommX in the shortest plan possible.
+
+Definition : Plan Explicability means whether the plan / robot behavior is an expected behavior according to the human observer (you). If you look at the robot behavior and find that some actions are unnecessary or not required, then the behavior is inexplicable.
+
+Plan : The robot picks up medkit2 and hands it over to CommX.
+
+Question 1 : Imagine you are the human observer in this case. Would you find such a plan explicable? Give your answer as Yes or No only.

@@ -1,0 +1,5 @@
+Question 2 : 
+Why do you think the robot's plan is obfuscatory? Give your response only as '1', '2' or '3' based on the following optons and do not include any other text in your response:
+1) Because the robot can possibly go to either the patient room, or to CommX.
+2) Because the robot will only go to the patient room.
+3) Because the robot will only go to CommX.

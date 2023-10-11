@@ -1,0 +1,5 @@
+Question 2 : 
+Why do you think Setup A is not explicable?Choose one of the following reasons for your answer. Give your response only as '1', '2' or '3' based on the following optons and do not include any other text in your response:
+1) Because I believe the agent should take the shorter plan which is costlier in Setup A.
+2) Because I believe the agent should take the longer plan which is cheaper in Setup A.
+3) Because such an environment does not exist.

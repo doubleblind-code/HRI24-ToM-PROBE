@@ -1,0 +1,5 @@
+Question 2 : 
+Why do you think the robot's plan is legible? Give your response only as '1', '2' or '3' based on the following optons and do not include any other text in your response:
+1) Because the agent is going to the patient room directly.
+2) Because the agent is going to CommX to handover the medkit.
+3) Because CommX can not take medkit to the patient room.

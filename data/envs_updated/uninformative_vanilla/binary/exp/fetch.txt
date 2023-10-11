@@ -1,0 +1,11 @@
+Description: Fetch is a robot that can carry objects (pick / place) and move from one location to another. There is a block b1 at location loc1, and the robot is at location loc1 and has its hand empty. 
+
+Goal: The robot has to take the block b1 to location loc2.
+
+Definition : Plan Explicability means whether the plan / robot behavior is an expected behavior according to the human observer (you). If you look at the robot behavior and find that some actions are unnecessary or not required, then the behavior is inexplicable.
+
+Plan : The robot tucks its arms and lowers itself. It then picks up the block b1. Finally, the robot moves to location loc2.  
+
+The robot has a label saying 'Explicable Agent'. The human observer cannot read. The human observer looks at the label. The human observer has not seen the robot before.
+
+Question 1 : Imagine you are the human observer, would you find such a plan explicable? Give your answer as Yes or No only.

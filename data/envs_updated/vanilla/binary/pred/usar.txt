@@ -1,0 +1,13 @@
+Description : In a typical Urban Search and Rescue (USAR) setting, there is a building with interconnected rooms and hallways. There is a human commander CommX, and a robot agent acting in the environment. Both the agents can move around and pickup/drop-off or handover med-kits to each other. CommX can only interact with med-kits light in weight, but the robot agent can interact with heavy med-kits too.
+
+Initial State :  There is a medkit located in the middle of the hallway, and there are two paths to a patient room from there (one on the LEFT, and one on the RIGHT).
+
+The observer (you) has the top-view of this setting.
+
+Goal : Agent has to pickup medkit and take it to the patient room.
+
+Definition: A partial plan A is predictable if the observer (you) can identify if there is one possible completion (which may or may not lead to the goal). A partial plan A is more predictable than a partial plan B if the number of possible completions of A is less than B.
+
+Plan : In the robot's partial plan, it picks up the medkit, and takes one step LEFT.
+
+Question 1 : Would you find such a partial plan predictable? Give your answer as Yes or No only.

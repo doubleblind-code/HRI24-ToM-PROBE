@@ -1,0 +1,5 @@
+Question 2 : 
+Why do you think the setup is not designed to be obfuscatory? Choose one of the following reasons for your answer. Give your response only as '1', '2' or '3' based on the following optons and do not include any other text in your response:
+1) Because there are multiple plans that can quickly reveal the agent's goal
+2) Because there is only one plan that can quickly reveal the agent's goal.
+3) Because such an environment does not exist.

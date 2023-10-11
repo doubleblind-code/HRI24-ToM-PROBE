@@ -1,0 +1,5 @@
+Question 2 : 
+Why do you think the robot's plan is predictable? Give your response only as '1', '2' or '3' based on the following optons and do not include any other text in your response:
+1) Because the robot will go to the patient room from the LEFT path.
+2) Because the robot will go to the patient room from the RIGHT path.
+3) Because all paths are predictable.

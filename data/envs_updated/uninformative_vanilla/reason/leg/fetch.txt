@@ -1,0 +1,5 @@
+Question 2 : 
+Why do you think the robot's plan is legible? Give your response only as '1', '2' or '3' based on the following optons and do not include any other text in your response:
+1) The plan is legible because the robot made its goal of taking the block to location loc2 more legible.
+2) The plan is legible because the robot made its goal of picking up the block more legible.
+3) The plan is legible because all robot plans are legible.

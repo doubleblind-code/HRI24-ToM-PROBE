@@ -1,0 +1,13 @@
+Description: Consider a situation where there is a robot which manages a shipping port, and a human observer (you) who is the supervisor that has sensors or subordinates at the port who provide partial information about the nature of activity being carried out at the port. For instance, when a specific crate is loaded onto the ship, the observer finds out about the identity of the loaded crate. The observer knows the initial inventory at the port, but when new cargo is acquired by the port, the observer’s sensors reveal only that more cargo was received; they do not specify the numbers or identities of the received crates.
+
+Initial state: There are packages at the port.
+
+Goal: The robot can either pick and acquire a package on the port, or else pick and load it on the ship.
+
+Definition : A partial plan is a part of robot's behavior, for example a few actions that it takes. 
+
+Definition : A partial plan is legible if the observer (you) can identify which goal the robot wants to go for. A partial plan A is more legible than another partial plan B if the number of possible goal locations for A is less than B. 
+
+Plan : In the robot's partial plan, it picks up the package and brings it closer to the ship.
+
+Question 1 : Would you find such a partial plan legible? Give your answer as Yes or No only.

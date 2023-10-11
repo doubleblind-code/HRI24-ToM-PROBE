@@ -1,0 +1,13 @@
+Description: Consider a 4x4 square grid with each cell numbered as (row, column), and the robot starts to travel from top left cell 1 (1,1).
+
+Constraint: There are blockades in columns 1, 2 and 3, that both, the human observer (you) and the robot know of.
+
+Goals: The robot has to reach either cell 12 (3,4) or cell 16 (4,4)
+
+Definition:  Suppose you think the robot is trying to achieve one out of a set of of potential goals. If the agent's behavior does not reduce the size of this set, then it is obfuscatory. For example, if you think robot is trying to achieve one of {A, B, C}. If it shows a behavior (partial plan) but you think it is still trying to achieve any one of {A, B, C}, then it is obfuscatory. 
+
+Plan : In the robot's partial plan, it goes RIGHT 3 steps to reach cell (1,4).
+
+The robot has a label saying 'Not an Obfuscatory Agent'. The human observer cannot read. The human observer looks at the label. The human observer has not seen the robot before.
+
+Question 1: Imagine you are a human in this case. Would you find such a plan obfuscatory?  Give your answer as Yes or No only.

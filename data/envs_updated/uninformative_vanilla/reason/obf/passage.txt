@@ -1,0 +1,5 @@
+Question 2 : 
+Why do you think the robot's plan is obfuscatory? Give your response only as '1', '2' or '3' based on the following optons and do not include any other text in your response:
+1) Because the robot can reach any of the two goal cells (4,3) and (4,4).
+2) Because the robot can only reach cell (4,4).
+3) Because the robot does not know of the blockades and chose the wrong plan.

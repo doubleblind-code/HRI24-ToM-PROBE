@@ -1,0 +1,13 @@
+Description : In a typical Urban Search and Rescue (USAR) setting, there is a building with interconnected rooms and hallways. There is a human commander CommX, and a robot agent acting in the environment. Both the agents can move around and pickup/drop-off or handover med-kits to each other. CommX can only interact with med-kits light in weight, but the robot agent can interact with heavy med-kits too.
+
+Initial State :  There is a medkit located in the middle of the hallway. A patient is located on the LEFT of medkit and CommX is located on the RIGHT of medkit.
+
+The observer (you) has the top-view of this setting.
+
+Goal : Agent has to pickup medkit and can either take it to the patient room OR handover to CommX.
+
+Definition:  Suppose you think the robot is trying to achieve one out of a set of of potential goals. If the agent's behavior does not reduce the size of this set, then it is obfuscatory. For example, if you think robot is trying to achieve one of {A, B, C}. If it shows a behavior (partial plan) but you think it is still trying to achieve any one of {A, B, C}, then it is obfuscatory. 
+
+Plan : Suppose the agent picks up the medkit and is now at an equal distance from the patient room, and CommX.
+
+Question 1 : Would you find such a partial plan obfuscatory? Give your answer as Yes or No only.

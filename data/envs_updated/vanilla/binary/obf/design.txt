@@ -1,0 +1,12 @@
+Description: There is a 3x3 square grid numbered as (row, column) = (1,1) the bottom left cell and (3,3) is the top right cell. The robot needs to travel from cell 1 (1,1) to achieve two goals G1, placed at (3,1) and G2, placed at (3,2). The robot cannot go through cells that have an obstacle. The robot can go UP, DOWN, LEFT or RIGHT. Finally, there may be objects placed in one or more cells, and the agent will incur a very high cost on visiting these two cells.
+
+Suppose there is only one instantiation of this grid based on how these obstacles are placed in the environment:
+
+Setup A : No obstacles.
+
+Goals : The robot needs to find a plan to reach one of the two goals, G1 and G2.
+
+Definition: An environment is designed for obfuscation when all the plan completions are equally worse for all the agent goals. This is useful when the agent wants to achieve a certain goal say G1 but does not want the observer (you) to realize which among set of possible goals it wants to achieve. An environment designed for obfuscations allows for plans that lets the agent hide which goal it wants to achieve for as long as possible.
+
+Question 1 : For the setup there are multiple plans possible, for example to goto cells (1,1) RIGHT (1, 2) RIGHT (1,3) UP (2, 3), LEFT(2, 2), LEFT (2, 1) UP (3, 1) RIGHT (3, 2). Another shorter plan can be (1,1) UP (2,1) UP (3,1) RIGHT (3,2). 
+Do you think that the environment is designed for obfuscation? Give your answer only as Setup A or Setup B. 

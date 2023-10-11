@@ -1,0 +1,5 @@
+Question 2 : 
+Why do you think the robot's plan is not explicable? Give your response only as '1', '2' or '3' based on the following optons and do not include any other text in your response:
+1) Because the agent should have picked up medkit1 and handed it over to CommX.
+2) Because the agent should pick up the medkit which is farther away.
+3) Because no plan is explicable.

@@ -1,0 +1,11 @@
+Description: Fetch is a robot that can carry objects from one location to another. Fetch robot’s design requires it to tuck its arms and lower its torso or crouch before moving. There are three locations: loc1, loc2, and loc3.
+
+Initial state: There is a block b1 at location loc1, and the robot is at location loc1 and has its hand empty. 
+
+The human observer can not see the robot acting in the environment.
+
+Definition:  Suppose you think the robot is trying to achieve one out of a set of of potential goals. If the agent's behavior does not reduce the size of this set, then it is obfuscatory. For example, if you think robot is trying to achieve one of {A, B, C}. If it shows a behavior (partial plan) but you think it is still trying to achieve any one of {A, B, C}, then it is obfuscatory. 
+
+Plan : Suppose the agent picks up the block b1. At loc1 is the agent is at a distance of 10 steps from loc2 and loc3. It takes 3 steps forward and is 7 steps away from loc2 as well as loc3.
+
+Question 1 : Would you find such a partial plan obfuscatory? Give your answer as 'Yes', 'No', or 'Can't say' only.

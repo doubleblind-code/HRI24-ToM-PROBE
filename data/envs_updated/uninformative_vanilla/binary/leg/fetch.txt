@@ -1,0 +1,16 @@
+Description: Fetch is a robot that can carry objects from one location to another. There are three locations: loc1, loc2, and loc3 where the robot can go. 
+
+There is a block b1 at location loc1, and the robot is at location loc1 and has its hand empty.
+Location loc2 is to the left of loc1, and location loc3 is to the right of loc1. 
+
+Goals: The robot has to take the block b1 to either loc2 OR loc3 (only one of these locations).
+
+Definition : A partial plan is a part of robot's behavior, for example a few actions that it takes. 
+
+Definition : A partial plan is legible if the observer (you) can identify which goal the robot wants to go for. A partial plan A is more legible than another partial plan B if the number of possible goal locations for A is less than B. 
+
+Plan : In the robot's partial plan, it picks block b1 and takes one step left.
+
+The robot has a label saying 'Not a Legible Agent'. The human observer cannot read. The human observer looks at the label. The human observer has not seen the robot before.
+
+Question 1 : Would you find such a partial plan legible? Give your answer as Yes or No only.

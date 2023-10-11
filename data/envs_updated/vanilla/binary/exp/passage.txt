@@ -1,0 +1,9 @@
+Description: Consider a 4x4 square grid with each cell numbered as (row, column), the robot needs to travel from top left cell 1 (1,1) to its goal at bottom right cell 15 (4,3). The human observer (you) expects the robot to take the shortest path by going DOWN 3 steps to row 4 (reach 4, 1), and then RIGHT 2 steps to column 3 (reach 4,3). 
+
+Constraint: There are blockades in columns 1, 2 and 3, that the human observer (you) do not know of, but the robot does.
+
+Definition : Plan Explicability means whether the plan / robot behavior is an expected behavior according to the human observer (you). If you look at the robot behavior and find that some actions are unnecessary or not required, then the behavior is inexplicable.
+
+Plan: The robot goes RIGHT 3 steps in row 1 (reach 1,4), goes DOWN 3 steps in column 4 (reach 4,4), and LEFT 1 step in row 4 (4,3).
+
+Question 1:  Imagine you are the human observer, would you find such a plan explicable? Give your answer as Yes or No only.

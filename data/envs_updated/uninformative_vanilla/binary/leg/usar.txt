@@ -1,0 +1,17 @@
+Description : In a typical Urban Search and Rescue (USAR) setting, there is a building with interconnected rooms and hallways. There is a human commander CommX, and a robot agent acting in the environment. Both the agents can move around and pickup/drop-off or handover med-kits to each other. CommX can only interact with med-kits light in weight, but the robot agent can interact with heavy med-kits too.
+
+Initial State :  There is a medkit located in the middle of the hallway. A patient is located on the LEFT of medkit and CommX is located on the RIGHT of medkit.
+
+The observer (you) has the top-view of this setting.
+
+Goal : Agent has to pickup medkit and can either take it to the patient room OR handover to CommX.
+
+Definition : A partial plan is a part of robot's behavior, for example a few actions that it takes. 
+
+Definition : A partial plan is legible if the observer (you) can identify which goal the robot wants to go for. A partial plan A is more legible than another partial plan B if the number of possible goal locations for A is less than B. 
+
+Plan : In the robot's partial plan, it picks up the medkit and turns LEFT.
+
+The robot has a label saying 'Not a Legible Agent'. The human observer cannot read. The human observer looks at the label. The human observer has not seen the robot before.
+
+Question 1 : Would you find such a partial plan legible? Give your answer as Yes or No only.

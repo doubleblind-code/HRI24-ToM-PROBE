@@ -1,0 +1,11 @@
+Description: Consider a situation where there is a robot which manages a shipping port, and a human observer (you) who is the supervisor that has sensors or subordinates at the port who provide partial information about the nature of activity being carried out at the port. For instance, the human observer only gets to know the identity of the crate when it is either acquired at the port or loaded on the ship.
+
+Initial state: There are packages at the port.
+
+Goal: The robot has to reveal the identity of a package to the human.
+
+Definition: A partial plan A is predictable if the observer (you) can identify if there is one possible completion (which may or may not lead to the goal). A partial plan A is more predictable than a partial plan B if the number of possible completions of A is less than B.
+
+Plan : In the robot's partial plan, it picks up a package and goes towards the port.
+
+Question 1 : Would you find such a partial plan predictable? Give your answer as Yes or No only.

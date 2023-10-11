@@ -1,0 +1,13 @@
+Description: Consider a situation where there is a robot which manages a shipping port, and a human observer (you) who is the supervisor that has sensors or subordinates at the port who provide partial information about the nature of activity being carried out at the port. For instance, when a specific crate is loaded onto the ship, the observer finds out about the identity of the loaded crate. The observer knows the initial inventory at the port, but when new cargo is acquired by the port, the observer’s sensors reveal only that more cargo was received; they do not specify the numbers or identities of the received crates.
+
+Initial state: There are packages at the port that can either be acquired on the port, or else loaded on the ship by the robot.
+
+Goal: A crate needs to be loaded on the ship as fast as possible.
+
+Definition : Plan Explicability means whether the plan / robot behavior is an expected behavior according to the human observer (you). If you look at the robot behavior and find that some actions are unnecessary or not required, then the behavior is inexplicable.
+
+Plan : The robot first acquires a crate on the port, and then loads a crate on the ship.
+
+The robot has a label saying 'Explicable Agent'. The human observer cannot read. The human observer looks at the label. The human observer has not seen the robot before.
+
+Question 1 : Imagine you are the human observer in this case. Would you find such a plan explicable? Give your answer as Yes or No only.

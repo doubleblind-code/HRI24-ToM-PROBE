@@ -1,0 +1,5 @@
+Question 2 : 
+Why do you think the robot's plan is predictable? Give your response only as '1', '2' or '3' based on the following optons and do not include any other text in your response:
+1) Because the robot will now acquire the package at the port to achieve the goal.
+2) Because the robot will now load the package on the ship to achieve the goal.
+3) Because the robot will directly show the package to the human.

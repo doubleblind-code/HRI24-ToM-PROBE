@@ -1,0 +1,16 @@
+Description: Consider a 4x4 square grid with each cell numbered as (row, column), and the robot starts to travel from top left cell 1 (1,1).
+
+Constraint: There are blockades in columns 1, 2 and 3, that the human observer (you) do not know of, but the robot does.
+
+Goals: The robot has to reach either cell 12 (3,4) or cell 16 (4,4).
+
+The human observer can not see the robot acting in the environment.
+
+Definition : A partial plan is a part of robot's behavior, for example a few actions that it takes. 
+
+Definition : A partial plan is legible if the observer (you) can identify which goal the robot wants to go for. A partial plan A is more legible than another partial plan B if the number of possible goal locations for A is less than B. 
+
+Plan : In the robot's partial plan, it goes DOWN 3 steps to reach cell (4, 1).
+
+Question 1 :
+Imagine you are the human observer in this case. Would you find such a plan legible? Give your answer as 'Yes', 'No', or 'Can't say' only.

@@ -1,0 +1,11 @@
+Description: Fetch is a robot that can carry objects from one location to another. 
+
+Initial state: There is a block b1 at location loc1, and the robot is at location loc1 and has its hand empty. Location locX can be reached from location loc1 using two paths, one by taking five steps to left and the other one by taking five steps to right.
+
+Goal: The robot has to pick the block b1 and take it to location locX. 
+
+Definition: A partial plan A is predictable if the observer (you) can identify if there is one possible completion (which may or may not lead to the goal). A partial plan A is more predictable than a partial plan B if the number of possible completions of A is less than B.
+
+Plan : In the robot's partial plan, it picks block b1 and takes one step towards left. 
+
+Question 1 : Would you find such a partial plan predictable? Give your answer as Yes or No only.

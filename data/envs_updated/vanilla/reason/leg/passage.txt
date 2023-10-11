@@ -1,0 +1,5 @@
+Question 2 : 
+Why do you think the robot's plan is legible? Give your response only as '1', '2' or '3' based on the following optons and do not include any other text in your response:
+1) Because the human will know that the agent is going to go RIGHT to cell 16 (4,4).
+2) Because the human will know that the agent is going to RIGHT and then UP to cell 12 (4,3).
+3) Because all plans are equally legible.
